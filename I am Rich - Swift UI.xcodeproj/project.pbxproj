@@ -24,6 +24,7 @@
 		CCA21AC4259A593A0081420B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CCA21AC7259A593A0081420B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CCA21AC9259A593A0081420B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCA21AD0259A612A0081420B /* I am Rich - Swift UI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "I am Rich - Swift UI.entitlements"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +57,7 @@
 		CCA21ABA259A59320081420B /* I am Rich - Swift UI */ = {
 			isa = PBXGroup;
 			children = (
+				CCA21AD0259A612A0081420B /* I am Rich - Swift UI.entitlements */,
 				CCA21ABB259A59320081420B /* AppDelegate.swift */,
 				CCA21ABD259A59320081420B /* SceneDelegate.swift */,
 				CCA21ABF259A59320081420B /* ContentView.swift */,
@@ -286,6 +288,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "I am Rich - Swift UI/I am Rich - Swift UI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"I am Rich - Swift UI/Preview Content\"";
 				DEVELOPMENT_TEAM = A64XE7B46Z;
@@ -297,6 +300,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davidchung.I-am-Rich---Swift-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -307,6 +311,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "I am Rich - Swift UI/I am Rich - Swift UI.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"I am Rich - Swift UI/Preview Content\"";
 				DEVELOPMENT_TEAM = A64XE7B46Z;
@@ -318,6 +323,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.davidchung.I-am-Rich---Swift-UI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
